@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+.fondo {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("fondo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+    
+
+}
+
+a{
+    padding: 25px;
+    border: 2px solid black;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+    border-radius: 25px;
+   
+}
+
+a:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+}
